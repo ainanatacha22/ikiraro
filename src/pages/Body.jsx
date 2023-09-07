@@ -1,18 +1,15 @@
 import React from "react";
 import Filter from "../components/Filter";
-import Image1 from "../assets/nike.webp";
-import Image2 from "../assets/nike2.png";
-import Image3 from "../assets/adidas.png";
-import Image4 from "../assets/adidas2.png";
-import Image5 from "../assets/converse1.jpg";
-import Image6 from "../assets/converse2.jpg";
+import Image1 from "../assets/images/nike.webp";
+import Image2 from "../assets/images/nike2.png";
+import Image3 from "../assets/images/adidas.png";
+import Image4 from "../assets/images/adidas2.png";
+import Image5 from "../assets/images/converse1.jpg";
+import Image6 from "../assets/images/converse2.jpg";
 import List from "../components/List";
 import { useState } from "react";
-import Header from "./Header";
 
 const Body = ({ change }) => {
-    console.log(">>>>>>>>>>>>>>nnn", change);
-
     const donnes = [
         {
             name: "Nike",

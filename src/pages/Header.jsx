@@ -17,7 +17,7 @@ const Header = () => {
     const handleChange = (e) => {
         setChange(e.target.value)
     }
-    console.log(">>>>>>>>>>>>>>", change);
+
     return (
         <div className='my-4 mx-4'>
             <input type="text" placeholder="Search......." onChange={e => handleChange(e)} />
