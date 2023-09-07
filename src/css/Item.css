@@ -1,0 +1,7 @@
+.pulse img {
+    transition: transform .1s;
+}
+
+.pulse img:hover {
+    transform: scale(1.2);
+}
